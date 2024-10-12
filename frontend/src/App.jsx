@@ -1,20 +1,20 @@
-// src/App.js
 import React from 'react';
-import { Provider } from 'react-redux';
-import store from './redux/store';
-import RideForm from './components/RideForm';
-import PriceComparison from './components/PriceComparison';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Rider from './pages/Rider';
+import Driver from './pages/Driver';
 
 function App() {
   return (
-    <Provider store={store}>
+    <Router>
       <div className="App">
-        <h1>Ride-Share Price Comparison</h1>
-        <RideForm />
-        <PriceComparison />
-        <BookingConfirmation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/rider" element={<Rider />} />
+          <Route path="/driver" element={<Driver />} />
+        </Routes>
       </div>
-    </Provider>
+    </Router>
   );
 }
 
