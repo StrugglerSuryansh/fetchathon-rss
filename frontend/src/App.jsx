@@ -1,23 +1,20 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+// src/App.js
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import RideForm from './components/RideForm';
+import PriceComparison from './components/PriceComparison';
 
 function App() {
-  const [message, setMessage] = useState("");
-
-  useEffect(() => {
-    axios.get("http://127.0.0.1:5000/api/message")
-      .then(response => {
-        setMessage(response.data.message);
-      })
-      .catch(error => console.error("Error fetching message:", error));
-  }, []);
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>{message}</h1>
-      </header>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <h1>Ride-Share Price Comparison</h1>
+        <RideForm />
+        <PriceComparison />
+        <BookingConfirmation />
+      </div>
+    </Provider>
   );
 }
 
