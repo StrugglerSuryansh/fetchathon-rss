@@ -19,7 +19,7 @@ class RideAgent(Entity):
         self.location = new_location
 
     def update_reputation(self, new_score):
-        self.reputation = (self.reputation + new_score) / 2
+        self.reputation = (self.reputation + new_score) / 2  
 
 # Define the DriverAgent class
 class DriverAgent(RideAgent):
