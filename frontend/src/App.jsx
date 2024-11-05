@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Rider from './pages/Rider';
 import Driver from './pages/Driver';
+import LandingPage from './pages/LandingPage';
 
 // This is my comment (Hirdesh)
 
@@ -11,7 +12,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/rider" element={<Rider />} />
           <Route path="/driver" element={<Driver />} />
         </Routes>
