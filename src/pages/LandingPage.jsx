@@ -31,25 +31,25 @@ const LandingPage = () => {
     const teamMembers = [
         {
             image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80',
-            name: 'Sarah Johnson',
+            name: 'Sehaj',
             role: 'Founder & CEO',
             description: 'Blockchain enthusiast with 10+ years in transportation innovation.'
         },
         {
             image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e',
-            name: 'Michael Chen',
+            name: 'Suyransh',
             role: 'CTO',
             description: 'Former tech lead at major ride-sharing companies, blockchain expert.'
         },
         {
             image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e',
-            name: 'Emily Rodriguez',
+            name: 'Bhawna Sharma',
             role: 'Head of Operations',
             description: 'Operations specialist focused on community engagement and growth.'
         },
         {
             image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e',
-            name: 'David Park',
+            name: 'Hirdesh',
             role: 'Lead Developer',
             description: 'Full-stack developer specializing in blockchain and smart contracts.'
         }

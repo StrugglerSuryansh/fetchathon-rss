@@ -21,7 +21,7 @@ function Driver() {
       {/* Main Content */}
       <div className="max-w-6xl px-4 py-12 mx-auto">
         <div className="p-8 bg-white/10 backdrop-blur-lg rounded-xl">
-          <h1 className="mb-8 text-3xl font-bold text-white">Driver Dashboard</h1>
+          <h1 className="mb-8 text-3xl font-bold text-white">Driver  suryansh Dashboard</h1>
           
           {/* Quick Stats */}
           <div className="grid grid-cols-1 gap-6 mb-12 md:grid-cols-3">
