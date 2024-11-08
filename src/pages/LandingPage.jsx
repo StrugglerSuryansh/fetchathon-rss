@@ -30,28 +30,28 @@ const LandingPage = () => {
 
     const teamMembers = [
         {
-            image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80',
+            image: 'https://i.postimg.cc/gkdGLJN8/Screenshot-2024-11-08-174414.png',
             name: 'Sehaj',
-            role: 'Founder & CEO',
-            description: 'Blockchain enthusiast with 10+ years in transportation innovation.'
+            // role: 'Founder & CEO',
+            description: 'Front-End Specialist with Full-Stack Development Expertise'
         },
         {
-            image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e',
+            image: 'https://i.postimg.cc/Dz23ZPtB/Screenshot-2024-11-08-183726.png',
             name: 'Suyransh',
-            role: 'CTO',
-            description: 'Former tech lead at major ride-sharing companies, blockchain expert.'
+            // role: '',
+            description: 'Full-Stack Developer specializing in Blockchain and AI integration'
         },
         {
-            image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e',
+            image: 'https://i.postimg.cc/PrNyQvkK/Screenshot-2024-11-08-180352.png',
             name: 'Bhawna Sharma',
-            role: 'Head of Operations',
-            description: 'Operations specialist focused on community engagement and growth.'
+            // role: 'Head of Operations',
+            description: 'Enthusiastic Front-End Developer'
         },
         {
-            image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e',
+            image: 'https://i.postimg.cc/9f2yKrs6/Screenshot-2024-11-08-180524.png',
             name: 'Hirdesh',
-            role: 'Lead Developer',
-            description: 'Full-stack developer specializing in blockchain and smart contracts.'
+            // role: 'Lead Developer',
+            description: 'Full-stack developer specializing in blockchain and smart contracts'
         }
     ];
 
