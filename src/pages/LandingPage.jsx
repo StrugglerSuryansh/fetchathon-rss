@@ -38,6 +38,8 @@ const LandingPage = () => {
         {
             image: 'https://i.postimg.cc/JhCF9nJM/Screenshot-2024-11-09-131244.png',
             name: 'Suyransh Patwal',
+            image: 'https://i.postimg.cc/Dz23ZPtB/Screenshot-2024-11-08-183726.png',
+            name: 'Suyransh',
             // role: '',
             description: 'Full-Stack Developer specializing in Blockchain and AI integration'
         },
