@@ -3,7 +3,7 @@ import { User, Star, Car, Clock } from 'lucide-react';
 
 const Profile = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600">
       {/* Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
