@@ -13,45 +13,45 @@ const LandingPage = () => {
     const features = [
         {
             icon: '🔒',
-            title: 'Secure & Transparent',
-            description: 'Built on blockchain technology ensuring transparent and secure transactions'
+            title: 'Fair and Transparent Pricing',
+            description: 'DRide’s automated pricing ensures riders stay within budget and drivers earn fair fares—making every trip transparent and satisfying.'
+        },
+        {
+            icon: '👥',
+            title: 'User-Centric',
+            description: 'DRide’s unique network gives riders and drivers more control, enhances safety, and creates a secure, user-focused ride-sharing experience.'  
         },
         {
             icon: '💰',
-            title: 'Better Pricing',
-            description: 'Competitive rates with no hidden fees or surge pricing'
+            title: 'Autonomous Negotiation',
+            description: 'DRide leverages Fetch.ai technology for instant, hassle-free fare agreements—setting fair prices without manual negotiation.'
         },
-        {
-            icon: '🤝',
-            title: 'Community Driven',
-            description: 'A decentralized platform owned and operated by the community'
-        }
     ];
 
     const teamMembers = [
         {
-            image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80',
+            image: 'https://i.postimg.cc/gkdGLJN8/Screenshot-2024-11-08-174414.png',
             name: 'Sehaj',
-            role: 'Founder & CEO',
-            description: 'Blockchain enthusiast with 10+ years in transportation innovation.'
+            // role: 'Founder & CEO',
+            description: 'Front-End Specialist with Full-Stack Development Expertise'
         },
         {
-            image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e',
-            name: 'Suyransh',
-            role: 'CTO',
-            description: 'Former tech lead at major ride-sharing companies, blockchain expert.'
+            image: 'https://i.postimg.cc/JhCF9nJM/Screenshot-2024-11-09-131244.png',
+            name: 'Suyransh Patwal',
+            // role: '',
+            description: 'Full-Stack Developer specializing in Blockchain and AI integration'
         },
         {
-            image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e',
+            image: 'https://i.postimg.cc/PrNyQvkK/Screenshot-2024-11-08-180352.png',
             name: 'Bhawna Sharma',
-            role: 'Head of Operations',
-            description: 'Operations specialist focused on community engagement and growth.'
+            // role: 'Head of Operations',
+            description: 'Enthusiastic Front-End Developer'
         },
         {
-            image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e',
-            name: 'Hirdesh',
-            role: 'Lead Developer',
-            description: 'Full-stack developer specializing in blockchain and smart contracts.'
+            image: 'https://i.postimg.cc/9f2yKrs6/Screenshot-2024-11-08-180524.png',
+            name: 'Hirdesh khandelwal',
+            // role: 'Lead Developer',
+            description: 'Full-stack developer specializing in blockchain and smart contracts'
         }
     ];
 
@@ -75,10 +75,10 @@ const LandingPage = () => {
             {/* Hero Section */}
             <div className="flex flex-col items-center justify-center px-4 py-20 text-white">
                 <h1 className="mb-6 text-5xl font-bold text-center md:text-6xl animate-fade-in">
-                    Welcome to Decentralized Ride Sharing
+                    Welcome to DRide🚗
                 </h1>
                 <p className="max-w-2xl mb-12 text-xl text-center md:text-2xl">
-                    Experience the future of ride sharing with our decentralized platform. 
+                    Experience the future of ride sharing with our automated faire negotiation  platform. 
                     Safer, cheaper, and community-driven.
                 </p>
                 <div className="space-x-4">
@@ -157,7 +157,7 @@ const LandingPage = () => {
                     <div>
                         <h3 className="mb-4 text-lg font-bold">DRide</h3>
                         <p className="text-gray-300">
-                            Revolutionizing ride sharing through decentralization.
+                            Revolutionizing ride sharing using automated fairer negotiation.
                         </p>
                     </div>
                     <div>

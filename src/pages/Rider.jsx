@@ -43,7 +43,7 @@ function Rider() {
       <footer className="py-8 mt-auto text-white bg-black/20">
         <div className="max-w-4xl px-4 mx-auto text-center">
           <p className="text-gray-300">
-            © 2024 DRide. Building the future of decentralized transportation.
+            © 2024 DRide. Building the future of automated fairer negotiation transportation.
           </p>
           <div className="mt-4 space-x-4">
             <Link to="/help" className="text-gray-300 hover:text-white">Help Center</Link>
